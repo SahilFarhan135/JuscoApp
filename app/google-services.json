@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917379877636",
+    "firebase_url": "https://jusco-392de.firebaseio.com",
+    "project_id": "jusco-392de",
+    "storage_bucket": "jusco-392de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917379877636:android:23020e7c66d8d81b021e51",
+        "android_client_info": {
+          "package_name": "com.example.tatatest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917379877636-6lm8lhhdbthqvng55m402ucvt1bp1h6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tatatest",
+            "certificate_hash": "fd5cf79e7df3bec0dafa0e5a738b1dcab66cbfc9"
+          }
+        },
+        {
+          "client_id": "917379877636-06uoqa1o4nkgjfob99js2opbdho3t4ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYD_ITWxP8DYMZ95vb2jUsojehI4lqjog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917379877636-06uoqa1o4nkgjfob99js2opbdho3t4ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

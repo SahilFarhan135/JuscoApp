@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Jusco</string>
+    <string name="title_activity_maps">Jusco </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Attend"><u>Attendance  Status</u></string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string-array name="employeeName">
+        <item>Select</item>
+        <item>Gaurav-555</item>
+        <item>Rakesh-0001</item>
+        <item>Anil-98765</item>
+        <item>Alam-12345</item>
+        <item>Abhishek-0999</item>
+        <item>Aayush-2222</item>
+    </string-array>
+
+
+</resources>

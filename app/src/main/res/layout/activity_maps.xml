@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+  <fragment
+      android:id="@+id/map"
+      android:name="com.google.android.gms.maps.SupportMapFragment"
+      android:layout_width="match_parent"
+      android:layout_height="317dp"
+      android:baselineAligned="false"
+      tools:context=".ui.Map.MapsActivity">
+    <Button
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:background="@drawable/ic_refresh"
+        android:id="@+id/refresh"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="60dp"
+        />
+
+
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp">
+
+      <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+          android:id="@+id/verticalSeekBar"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:max="15"
+          android:progress="12"
+          android:splitTrack="false"
+          app:seekBarRotation="CW270" />
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+
+
+  </fragment>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="340dp"
+      android:background="@drawable/background1"
+      android:orientation="vertical"
+      android:padding="10dp"
+      android:elevation="10dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Make your attendance:-"
+        android:textColor="@color/black"
+        android:textSize="20dp"></TextView>
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/roundbutton"
+        android:enabled="false"
+        android:elevation="10dp"
+        android:text="Present"
+
+
+        android:textColor="@color/black"></Button>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundbutton2"
+        android:enabled="false"
+        android:text="Leave"
+        android:elevation="10dp"
+        android:textColor="@color/black"
+
+
+        ></Button>
+
+
+
+
+
+
+  </LinearLayout>
+
+</LinearLayout>
+
+

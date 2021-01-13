@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    tools:context=".EmployeeSignup">
+
+  <EditText
+      android:id="@+id/etVisitoR"
+      android:layout_width="275dp"
+      android:layout_height="49dp"
+      android:elevation="10dp"
+      android:layout_marginTop="164dp"
+      android:background="@drawable/roundbutton1"
+      android:ems="10"
+      android:hint="   Visitor Name"
+      android:inputType="textPersonName"
+      android:padding="5dp"
+      android:textColorHint="@android:color/black"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.426"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.263" />
+
+  <EditText
+      android:id="@+id/etVEmail"
+      android:layout_width="275dp"
+      android:layout_height="49dp"
+      android:elevation="10dp"
+      android:layout_marginTop="8dp"
+      android:ems="10"
+      android:hint="   Email"
+      android:inputType="textEmailAddress"
+      android:textColorHint="@android:color/black"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.421"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/etVisitoR"
+      android:background="@drawable/roundbutton1"
+      android:padding="5dp"/>
+
+  <EditText
+      android:id="@+id/etVPassword"
+      android:layout_width="275dp"
+      android:layout_height="49dp"
+      android:elevation="10dp"
+      android:layout_marginTop="12dp"
+      android:ems="10"
+      android:hint="   Password"
+      android:inputType="textPassword"
+      android:textColorHint="@android:color/black"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.413"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/etVEmail"
+      android:background="@drawable/roundbutton1"
+      android:padding="5dp"/>
+
+  <EditText
+      android:id="@+id/etVCnfPassword"
+      android:layout_width="275dp"
+      android:layout_height="49dp"
+      android:elevation="10dp"
+      android:layout_marginStart="32dp"
+      android:layout_marginLeft="32dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="32dp"
+      android:layout_marginRight="32dp"
+      android:layout_marginBottom="48dp"
+      android:ems="10"
+      android:hint="   Confirm Password"
+      android:inputType="textPassword"
+      android:textColor="#CC6B8E"
+      android:textColorHint="@android:color/black"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.365"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/etVPassword"
+      app:layout_constraintVertical_bias="0.0"
+      android:background="@drawable/roundbutton1"
+      android:padding="5dp"/>
+
+  <Button
+      android:id="@+id/btVSIGNUP"
+      android:layout_width="95dp"
+      android:layout_height="39dp"
+      android:background="#F5ABDD"
+      android:text="SIGNUP"
+      android:textColor="@android:color/black"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.452"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/etVCnfPassword"
+      app:layout_constraintVertical_bias="0.323" />
+
+  <TextView
+      android:id="@+id/etVLOGO"
+      android:layout_width="263dp"
+      android:layout_height="32dp"
+      android:layout_marginStart="32dp"
+      android:layout_marginLeft="32dp"
+      android:layout_marginEnd="32dp"
+      android:layout_marginRight="32dp"
+      android:text="VISITOR    REGISTRATION"
+
+      android:textColor="@android:color/black"
+      android:textSize="22dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.503"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.2"
+      android:textStyle="bold"/>
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="188dp"
+      android:layout_height="80dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.412"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.024"
+      app:srcCompat="@drawable/csk" />
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="115dp"
+      android:layout_height="44dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.945"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.994"
+      app:srcCompat="@drawable/kkrsharp" />
+
+  <EditText
+      android:id="@+id/userId"
+      android:layout_width="275dp"
+      android:layout_height="49dp"
+      android:elevation="10dp"
+      android:layout_marginBottom="8dp"
+      android:background="@drawable/roundbutton1"
+      android:ems="10"
+      android:hint="   Create User Id"
+      android:inputType="textPersonName"
+      android:padding="5dp"
+      android:textColorHint="@color/black"
+      app:layout_constraintBottom_toTopOf="@+id/etVisitoR"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.411"
+      app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

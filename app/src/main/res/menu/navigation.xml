@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/make"
+        android:title="Make Attendance"
+        android:icon="@drawable/ic_attend"
+        />
+    <item
+        android:id="@+id/view"
+        android:title="View Attendance"
+        android:icon="@drawable/ic_view_attendance"/>
+
+</menu>
